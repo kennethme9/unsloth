@@ -19,46 +19,8 @@ __all__ = [
 
 __INT_TO_FLOAT_MAPPER = \
 {
-    "unsloth/mistral-7b-bnb-4bit" : (
-        "unsloth/mistral-7b",
-        "mistralai/Mistral-7B-v0.1",
-    ),
-    "unsloth/llama-2-7b-bnb-4bit" : (
-        "unsloth/llama-2-7b",
-        "meta-llama/Llama-2-7b-hf",
-    ),
-    "unsloth/llama-2-13b-bnb-4bit" : (
-        "unsloth/llama-2-13b",
-        "meta-llama/Llama-2-13b-hf",
-    ),
     "unsloth/codellama-34b-bnb-4bit" : (
         "codellama/CodeLlama-34b-hf",
-    ),
-    "unsloth/zephyr-sft-bnb-4bit" : (
-        "unsloth/zephyr-sft",
-        "HuggingFaceH4/mistral-7b-sft-beta",
-    ),
-    "unsloth/tinyllama-bnb-4bit" : (
-        "unsloth/tinyllama",
-        "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
-    ),
-    "unsloth/tinyllama-chat-bnb-4bit" : (
-        "unsloth/tinyllama-chat",
-        "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-    ),
-    "unsloth/mistral-7b-instruct-v0.1-bnb-4bit" : (
-        "mistralai/Mistral-7B-Instruct-v0.1",
-    ),
-    "unsloth/mistral-7b-instruct-v0.2-bnb-4bit" : (
-        "mistralai/Mistral-7B-Instruct-v0.2",
-    ),
-    "unsloth/llama-2-7b-chat-bnb-4bit" : (
-        "unsloth/llama-2-7b-chat",
-        "meta-llama/Llama-2-7b-chat-hf",
-    ),
-    "unsloth/llama-2-7b-chat-bnb-4bit" : (
-        "unsloth/llama-2-7b-chat",
-        "meta-llama/Llama-2-7b-chat-hf",
     ),
     "unsloth/codellama-7b-bnb-4bit" : (
         "unsloth/codellama-7b",
@@ -89,10 +51,6 @@ __INT_TO_FLOAT_MAPPER = \
     "unsloth/gemma-2b-bnb-4bit" : (
         "unsloth/gemma-2b-it",
         "google/gemma-2b-it",
-    ),
-    "unsloth/mistral-7b-v0.2-bnb-4bit" : (
-        "unsloth/mistral-7b-v0.2",
-        "alpindale/Mistral-7B-v0.2-hf",
     )
 }
 
