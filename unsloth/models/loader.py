@@ -159,7 +159,7 @@ class FastLanguageModel(FastLlamaModel):
                 # Sometimes torch_dtype is not a string!!
                 "bnb_4bit_compute_dtype"           : model.config.to_dict()["torch_dtype"],
                 "bnb_4bit_quant_type"              : "nf4",
-                "bnb_4bit_use_double_quant"        : True,
+                "bnb_4bit_use_double_quant"        : False,
                 "llm_int8_enable_fp32_cpu_offload" : False,
                 "llm_int8_has_fp16_weight"         : False,
                 "llm_int8_skip_modules"            : None,
